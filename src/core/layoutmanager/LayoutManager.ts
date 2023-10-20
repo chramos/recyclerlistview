@@ -83,10 +83,10 @@ export class WrapGridLayoutManager extends LayoutManager {
         if (this._layouts.length > index) {
             return { x: this._layouts[index].x, y: this._layouts[index].y };
         } else {
-            throw new CustomError({
-                message: "No layout available for index: " + index,
-                type: "LayoutUnavailableException",
-            });
+            //throw new CustomError({
+            //    message: "No layout available for index: " + index,
+            //    type: "LayoutUnavailableException",
+            //});
         }
     }
 
